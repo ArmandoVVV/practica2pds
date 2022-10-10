@@ -38,13 +38,13 @@ void GPIO_callback_init(gpio_name_t gpio, void (*handler)(uint32_t flags))
 			break;
 
 //		case GPIO_D:
-//			gpio_D_callback = hanlder;
+//			gpio_D_callback = handler;
 //			break;
 //
 		default: // gpio == GPIO_E
 			gpio_C_callback = handler;
 			// IGNORE
-//			gpio_E_callback = hanlder;
+//			gpio_E_callback = handler;
 	}
 }
 
